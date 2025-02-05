@@ -265,7 +265,7 @@ func _on_inventory_interface_drop_slot_data(slot_data: InventorySlotPD):
 	Audio.play_sound(slot_data.inventory_item.sound_drop)
 	var dropped_item = scene_to_drop.instantiate()
 	dropped_item.position = player.player_interaction_component.get_interaction_raycast_tip(item_drop_distance_offset)
-	dropped_item.find_interaction_nodes()
+	dropped_item.find_interaction_nodes() # todo ae "invalid call. nonexistent function 'find_interaction_nodes' in base Rigidbody3D (cogito_pickup.gd)"
 	for node in dropped_item.interaction_nodes:
 		if node.has_method("get_item_type"):
 			node.slot_data = slot_data

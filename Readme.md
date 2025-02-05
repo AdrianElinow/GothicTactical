@@ -7,10 +7,10 @@ Gothic Tactical is based on the COGITO Godot template, which is made by [Philip 
 ### Planned Features (prioritized)
 - Game world
   - [1] NPC's
-    - [2] Dialog system
-    - [3] Shop & Trade UI
-    - [4] Dynamic Sims-like AI using recursive decision-making to solve high-level problems
-    - [5] Enemy AI (and grouping, squads, formations, and coordination)
+	- [2] Dialog system
+	- [3] Shop & Trade UI
+	- [4] Dynamic Sims-like AI using recursive decision-making to solve high-level problems
+	- [5] Enemy AI (and grouping, squads, formations, and coordination)
   - [9] Starting area
 - Items & Economy
   - [7] Medical system
@@ -18,7 +18,7 @@ Gothic Tactical is based on the COGITO Godot template, which is made by [Philip 
   - [14] More realistic ballistics simulation
 - Player controller & Engine
   - [6] Multiplayer support
-    - Multiplayer gamemodes? (Deathmatch, S&D, Assassin, TTT)
+	- Multiplayer gamemodes? (Deathmatch, S&D, Assassin, TTT)
   - Leaning mechanic
   - [11] Dynamic Lighting system for stealth
   - [10] Hacking & Computers
